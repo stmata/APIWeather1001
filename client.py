@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:8008/info"
+url = "https://apiweatherrcw1.azurewebsites.net/info"
 
 resp = requests.get(url)
 print(resp.json())
